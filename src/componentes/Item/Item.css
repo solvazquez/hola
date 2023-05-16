@@ -1,0 +1,40 @@
+.cardProducto {
+    background-color: #e2cba2;
+    border-radius: 10px;
+    width: 15rem;
+    padding: 1rem;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.imgProducto {
+    object-fit: contain;
+    width: 208px;
+    height: 320px;
+    border: double 2px white;
+    opacity: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.nombreProducto{
+    font-weight: bold;
+    color:#1d345d ;
+}
+
+.btnProducto {
+    background-color: #373d20;
+    color: white;
+    font-size: 1.2rem;
+    width: 8rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
